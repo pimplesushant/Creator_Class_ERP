@@ -1,0 +1,10 @@
+/* List */
+ .bbf-list .bbf-add {
+    margin-top: -10px
+}
+.bbf-list li {
+    margin-bottom: 5px
+}
+.bbf-list .bbf-del {
+    margin-left: 5px
+}

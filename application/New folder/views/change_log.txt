@@ -1,0 +1,44 @@
+<div class="container">
+
+
+<legend>Add Branch Details</legend>
+
+<fieldset style="border:2px solid #C0C0C0; background-color:#f8f8f8;">&nbsp;
+
+<form class="form-horizontal" action="<?php echo $branch; ?>" method="POST"  >
+<div class="control-group">
+    <label class="control-label" for="Branch Name">Branch Name</label>
+        <div class="controls">
+        <input type="text" id="branch_name" name="branch_name" class="input-xlarge" placeholder="Branch Name" >
+		<?php echo form_error('branch_name'); ?>
+        </div>
+</div>
+<div class="control-group">
+				<label class="control-label">Mobile No.</label>
+					<div class="controls">
+					
+					<input class="input-large" id="mobile" name="mobile" type="text" placeholder="xxxxxxxxxx">
+				<?php echo form_error('mobile'); ?>
+				</div>
+			</div>
+
+<div class="control-group">
+				<label class="control-label">E-mail</label>
+					<div class="controls">
+					
+					<input class="input-large" type="email" id="email_id" name="email_id" placeholder="E-mail">
+				<?php echo form_error('email_id'); ?>
+				</div>
+			</div>
+		
+<div class="control-group">	
+		<label class="control-label"></label>
+	<div class="controls">
+	<button type="Save" class="btn btn-success">Save</button>&nbsp;
+    <button type="button" class="btn">Clear</button>
+	</div>
+
+</div>    
+</div>  
+    </form>
+	</fieldset>

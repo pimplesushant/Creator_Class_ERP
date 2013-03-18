@@ -1,0 +1,238 @@
+/* body {
+	font-family:tahoma;
+	padding:0px;
+	margin:0px;
+	background:#f5f5f5
+} */
+
+div.content {
+	padding:10px 20px;
+}
+div.content h1 {
+	font-size:18pt;
+	border-bottom:5px solid #a00;
+	padding:0px;
+	margin:10px 0px 20px;
+	width:80%;
+}
+
+div.content div.data table {
+	border:2px solid #000;
+	background:#fff;
+	width:100%;
+}
+div.content div.data table td {
+	font-size:10pt;
+	padding:5px 10px;
+	border-bottom:1px solid #ddd;
+	text-align: left;
+}
+div.content div.data table th {
+	text-align: left;
+	font-size: 8pt;
+	padding: 10px 10px 7px;
+	text-transform: uppercase;
+	color: 	#D0D0D0;
+	background:url(images/head.gif) left -5px repeat-x;
+}
+
+div.paging {
+	font-size: 9pt;
+	margin:5px 0px;
+}
+div.paging a {
+	color:#900;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+div.paging a:hover {
+	color:#c00;
+}
+div.paging b {
+	color:#900;
+}
+
+ 
+#column{
+	display:block;
+	float:right;
+	width:300px;
+	}
+
+#column .holder, #column #featured{
+	display:block;
+	width:300px;
+	margin-bottom:40px;
+	}
+
+#column .holder p{
+	line-height:1.6em;
+	}
+
+#column .holder h2.title{
+	display:block;
+	width:100%;
+	height:65px;
+	margin:0;
+	padding:15px 0 8px 0;
+	font-size:20px;
+	font-weight:normal;
+	color:#666666;
+	background-color:#FFFFFF;
+	line-height:normal;
+	border-bottom:1px dashed #CCCCCC;
+	}
+
+#column .holder h2.title img{
+	float:left;
+	margin:-15px 8px 0 0;
+	padding:5px;
+	color:#666666;
+	background-color:#F7F7F7;
+	border:1px solid #CCCCCC;
+	}
+
+#column .holder p.readmore{
+	display:block;
+	width:100%;
+	font-weight:bold;
+	text-align:right;
+	line-height:normal;
+	}
+
+	/* ----------------------------------------------Container-------------------------------------*/
+
+#container{
+	padding:20px 0;
+	}
+
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{
+	margin:0 0 15px 0;
+	padding:0 0 15px 0;
+	line-height:normal;
+	font-weight:normal;
+	font-size:20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border-bottom:1px dashed #666666;
+	}
+
+#container a{
+	color:#294E79;
+	background-color:#FFFFFF;
+	}
+#column div.imgholder{
+	display:block;
+	width:290px;
+	margin:0 0 10px 0;
+	padding:4px;
+	color:#666666;
+	background-color:#F7F7F7;
+	border:1px solid #CCCCCC;
+	}
+/*
+div.success {
+	font-size:14pt;
+	background:url(images/accept.png) left 5px no-repeat;
+	padding:0px;
+	padding-left:20px;
+	margin:0px 0px 10px;
+	color:#060;
+	width:80%;
+}
+ Featured Block */
+
+#column #featured a{
+	color:#294E79;
+	background-color:#FFFFFF;
+	}
+
+#column #featured ul, #column #featured h2, #column #featured p{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#column #featured li{
+	display:block;
+	width:215px;
+	margin:0;
+	padding:20px 54px;
+	color:#2E271D;
+	background-color:#FFFFFF;
+	height:200px;
+	}
+
+#column #featured li p{
+	line-height:1.6em;
+	}
+
+#column #featured li p.imgholder{
+	display:block;
+	width:240px;
+	height:90px;
+	margin:20px 0 15px 0;
+	padding:4px;
+	border:1px solid #CCCCCC;
+	}
+
+#column #featured li h2{
+	margin:-19px;
+	padding:0 0 14px 0;
+	font-size:20px;
+	font-weight:normal;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#666666;
+	background-color:
+	line-height:normal;
+	border-bottom:1px dashed #666666;
+	margin-left:-56px;
+	}
+
+#column #featured p.more{
+	display:block;
+	width:100%;
+	margin-top:15px;
+	font-weight:bold;
+	text-align:right;
+	line-height:normal;
+	}
+
+a.update, a.delete, a.add, a.view, a.back {
+	font-size: 9pt;
+	color:#900;
+	font-wight:bold;
+	padding-left:20px;
+	text-decoration: none;
+}
+a.update {
+	background:url(images/update.png) left center no-repeat;
+}
+a.delete {
+	background:url(images/delete.png) left center no-repeat;
+}
+a.add {
+	background:url(images/add.png) left center no-repeat;
+}
+a.view {
+	background:url(images/view.png) left center no-repeat;
+}
+a.back {
+	background:url(images/prev.gif) left center no-repeat;
+}
+a.update:hover, a.delete:hover, a.add:hover, a.view:hover {
+	color:#000;
+}
+
+input.text {
+	border:2px solid #aaa;
+}
+
+.error {
+	background: #FBE6F2 none repeat scroll 0 0;
+	border: 1px solid #D893A1;
+	color: #333333;
+	margin: 5px 0 0;
+	padding: 5px;
+	font-size: 10px;
+	font-family: Lucida Grande,Verdana,Geneva,Sans-serif;
+}
